@@ -9,11 +9,5 @@ public class Main {
         Shape circle2 = new Circle();
         System.out.println(circle2.render());
 
-//        square1.render();
-//        System.out.println(Colors.BLACK);
-//        circle1.render();
-//        System.out.println(" " +Colors.RED);
-//        square2.render();
-//        circle2.render();
     }
 }
