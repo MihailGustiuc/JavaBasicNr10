@@ -1,5 +1,4 @@
 
 abstract class Shape {
-    public abstract void render();
-
+    abstract Colors render();
 }

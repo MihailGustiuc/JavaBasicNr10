@@ -1,6 +1,7 @@
 class Circle extends Shape {
     @Override
-    public void render() {
-        System.out.println("Circle." +Colors.RED);
+    public Colors render() {
+        System.out.print("Circle.");
+        return Colors.RED;
     }
 }

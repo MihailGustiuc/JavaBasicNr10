@@ -1,8 +1,9 @@
 
 class Polygon extends Shape {
     @Override
-    public void render() {
-        System.out.println("Polygon." +Colors.GREEN);
+    public Colors render() {
+        System.out.print("Polygon.");
+        return Colors.GREEN;
 
     }
 }
